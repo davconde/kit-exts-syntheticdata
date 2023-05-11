@@ -1,0 +1,89 @@
+{
+    "resolution": {
+        "width": 1920,
+        "height": 1080
+    },
+    "num_frames": 1000,
+    "assets": {
+        "nucleus_path": "omniverse://localhost/",
+        "objects_path": "Library/Assets/Objects/",
+        "envs_path": "Library/Assets/Scenes/Templates/Parking/Parking.usd",
+        "min_instances": 5,
+        "max_instances": 10,
+        "use_envs": true
+    },
+    "camera": {
+        "focal_length": 33,
+        "focus_distance": 800,
+        "f_stop": 0.0,
+        "loc": {
+            "min": {
+                "x": -2500.0,
+                "y": 2500.0,
+                "z": 0.0
+            },
+            "max": {
+                "x": -2500.0,
+                "y": 2500.0,
+                "z": 0.0
+            }
+        },
+        "lookat": {
+            "min": {
+                "x": 250.0,
+                "y": 0.0,
+                "z": 10000.0
+            },
+            "max": {
+                "x": 1250.0,
+                "y": 0.0,
+                "z": 11875.0
+            }
+        }
+    },
+    "objects": {
+        "loc": {
+            "min": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "max": {
+                "x": 1500.0,
+                "y": 0.0,
+                "z": 45000.0
+            }
+        },
+        "rot": {
+            "min": {
+                "x": 0.0,
+                "y": 90.0,
+                "z": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 180.0,
+                "z": 0.0
+            }
+        }
+    },
+    "annotators": {
+        "output_dir": "_output",
+        "RGB": false,
+        "normals": false,
+        "BBox2D_loose": false,
+        "BBox2D_tight": false,
+        "BBox3D": false,
+        "dist_cam": false,
+        "dist_img": false,
+        "semantic_seg": false,
+        "instance_id_seg": false,
+        "instance_seg": false,
+        "point_cloud": false,
+        "skeleton": false,
+        "motion_vec": false,
+        "cam_param": false,
+        "KITTI": false,
+        "YOLO": true
+    }
+}

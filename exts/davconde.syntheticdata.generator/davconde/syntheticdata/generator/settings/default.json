@@ -1,0 +1,89 @@
+{
+    "resolution": {
+        "width": 1024,
+        "height": 1024
+    },
+    "num_frames": 10,
+    "assets": {
+        "nucleus_path": "omniverse://localhost/",
+        "objects_path": "Library/Assets/Objects/",
+        "envs_path": "Library/Assets/Envs/",
+        "min_instances": 1,
+        "max_instances": 1,
+        "use_envs": false
+    },
+    "camera": {
+        "focal_length": 24,
+        "focus_distance": 800,
+        "f_stop": 0.0,
+        "loc": {
+            "min": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "lookat": {
+            "min": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        }
+    },
+    "objects": {
+        "loc": {
+            "min": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        },
+        "rot": {
+            "min": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            },
+            "max": {
+                "x": 0.0,
+                "y": 0.0,
+                "z": 0.0
+            }
+        }
+    },
+    "annotators": {
+        "output_dir": "_output",
+        "RGB": true,
+        "normals": false,
+        "BBox2D_loose": false,
+        "BBox2D_tight": false,
+        "BBox3D": false,
+        "dist_cam": false,
+        "dist_img": false,
+        "semantic_seg": false,
+        "instance_id_seg": false,
+        "instance_seg": false,
+        "point_cloud": false,
+        "skeleton": false,
+        "motion_vec": false,
+        "cam_param": false,
+        "KITTI": false,
+        "YOLO": false
+    }
+}
